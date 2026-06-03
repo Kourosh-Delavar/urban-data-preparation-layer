@@ -3,7 +3,7 @@
 ## Description
 The Urban Data Preparation Layer is a distributed ETL (Extract, Transform, Load) pipeline built with PySpark and Apache Sedona. It is designed to process, unify, and store large-scale urban spatial data. 
 
-The pipeline extracts AI-generated urban perception data (CSV) and OpenStreetMap street network features (GeoJSON) from an AWS S3 raw data lake. It reprojects the coordinates to a metric system, performs a highly optimized spatial distance join, and loads the unified dataset back into a bronze data lake layer as partitioned GeoParquet files.
+The pipeline extracts AI-generated urban perception data (CSV) and street network features (GeoJSON) from an AWS S3 raw data lake. It reprojects the coordinates to a metric system, performs a highly optimized spatial distance join, and loads the unified dataset back into a bronze data lake layer as partitioned GeoParquet files.
 
 ## Architecture and Workflow
 
